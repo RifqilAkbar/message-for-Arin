@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Pesan Cinta</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="fade-in center-content">
+  <div class="balloon-container"></div>
+
+  <div class="message-box">
+    <textarea placeholder="Haloo Sayang
+    mungkin iki mau aku ngerusak harine kamu ntah mood e kamu ntah lain e aku mintaa maaf,
+    bukane aku sg berubah sayang,cuma kadang aku gaa koyok biasa e mungkin ada sesuatu,
+    contoh ono sg buat aku gamood,ono sg buat aku emosi atau males, iyaa aku tau gaa harus
+    segitu e aku ng kamuu, maaf aku kebawa emosi neh iku mauu, aku e cape sisan iku mau mikir tugas,
+    tapi ijek cape an kamu, aku cuma gamau kamu ngene, blokir i semua e, aku pernah bilang aku gaa suka,
+    aku cuma pengen kamu bilang apa sg berubah tekan aku, aku sisan pengen koyok bene kamu,
+    banyak asline sg buat aku emosi,gaamod,males, contoh aku manja ng kamu pengen di post sampe sk iki gaa.
+    pengen di bujuk tapi ga mungkin, sama aku sisan sama koyok sg kamu pengen,
+    aku semenjak kene sering berantem aku gaa pernah kamu sayang sayang neh gaa pernah kamu manja atau kamu bujuk,
+    mungkin aku sisan banyak salah, gaa koyok bene kalem sk iki banyak emosi ne, aku cuma pengen iku sg tk mintaa,
+    nk kamu gaa nuruti terserah kamu gapapaa, mungkin baru iki kamu punya cowo sg ribet koyok aku,
+    banyak kurang e, apa apa minta, aku tau ogg kamu gaa pernah pacaran selama iku, tapi kene kenal berapa lama,
+    masa kamu e gatau, mungkin iyaa kamu gaa nemu apa apa ng aku,aku mintaa maaf nk belom ngasih apa sg kamu pengen,
+    aku cuma mau bilang aku cuma mau minta ng kamu panggil aku sayang koyok bene,manja ng aku,semua ceritano aku,
+    apa apa aku, post aku, aku sg sering post kamu mangkane aku jarang post kamu aku sisan pengen,aku pengen di call i walaupun
+    diem diem an suka ae ,gaa minta ngobrol terus koyok bene bar hari raya sg berantem , nah sk iki aku milih call ae diem diem an,
+    aku bisa nuruti sg kamu mau semua,mulai sk iki sama sama usahano yaa sayangg... sama sama pertahanno,
+    sama sama nurunno ego, aku cuma mau bilang ng kamuu , aku sayangggggggggggg bangett ng kamuu, nk kamu berfikiran 
+    aku ada sg lain kamu salahh sayangg, se sering kita berantem aku e gaa ada cari sg lain atau kenyamanan ng cewe lain,
+    aku tetep koyok bene batesi semua cewe selain dulurku,maaff yaa sayangg nk selama iki aku belom bisa jadi sg kamu mau,
+    mungkin masih jauh sisan tekan kata sempurna, soal rasa ng kamuu aku gaa pernahh main main hehehe...,aku sayangggggggg bangett
+    I WILL ALWAYS LOVE YOU"></textarea>
+  </div>
+
+  <script>
+    function createBalloon() {
+      const balloon = document.createElement("div");
+      balloon.className = "balloon";
+      balloon.style.left = Math.random() * 90 + "%";
+      document.querySelector(".balloon-container").appendChild(balloon);
+
+      setTimeout(() => {
+        balloon.remove();
+      }, 5000);
+    }
+
+    setInterval(createBalloon, 600);
+  </script>
+</body>
+</html>
+
